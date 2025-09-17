@@ -1,0 +1,17 @@
+body {
+    background: #1a4a00;
+    background: linear-gradient(90deg, rgba(26, 74, 0, 1) 0%, rgba(40, 158, 36, 1) 54%, rgba(116, 242, 109, 1) 100%);
+    color: #fff;
+}   
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 100px 100px;
+}
+
+.item {
+    background-color: black;
+    color:yellow;
+    text-align: center;
+}
