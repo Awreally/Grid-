@@ -7,18 +7,56 @@ body {
 .container {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr 2fr);
+    grid-template-rows: repeat(10, 50px);
 }
-.item14 {
-    background-color: #1a4a00;
-    text-align: center;
-    border: 5px solid yellow;
-    grid-column: span 2;
-    
+
+.item1 {
+    background-color: #fff;
+    grid-column: 3 / 5;
+    color: #111;
 }
+
+.item2 {
+    background-color: #fff;
+    grid-column: 5 / -1;
+    color: #111;
+}
+
+.item5 {
+    background-color: #fff;
+    grid-column:span 2;
+    grid-row: span 2;
+    color: #111;
+}
+
+.item8 {
+    background-color: #fff;
+    grid-row: span 2;
+    color: #111;
+}
+
+.item15 {
+    background-color: #fff;
+    grid-column: 1 / -1;
+    color: #111;
+}
+
+.item18 {
+    background-color: white;
+    grid-column: span 4 / 9;
+    color: #111;
+}
+
+.item20 {
+    background-color: #fff;
+    color: #111;
+    grid-row: 4 / span 3;
+
+}
+
 .item {
-    background-color: black;
-    color:yellow;
+    background-color: yellow;
+    color: #111;
     text-align: center;
-    border: 5px solid;
 }
